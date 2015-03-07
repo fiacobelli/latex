@@ -1,0 +1,15 @@
+\frametitle{Coding this}
+Some lists
+  \begin{itemize}
+  \item uno
+  \item dos
+  \end{itemize}
+
+\bigskip
+
+\begin{minted}{java}
+// comment
+public static void main(String args[]) {
+   System.out.println("Hello World");
+}
+\end{minted}

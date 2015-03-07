@@ -1,0 +1,39 @@
+\documentclass{beamer}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{minted}
+\title{There Is No Largest Prime Number}
+\date[ISPN ’80]{27th International Symposium of Prime Numbers}
+\author[Euclid]{Euclid of Alexandria \texttt{euclid@alexandria.edu}}
+  
+\usetheme{uno}
+
+\begin{document}
+
+\begin{frame}
+\titlepage 
+\end{frame}
+
+\begin{frame}[fragile]{Coding this}
+Some lists
+  \begin{itemize}
+  \item uno
+  \item dos
+  \end{itemize}
+
+\bigskip
+
+\begin{minted}{java}
+public static void main(String args[]) {
+   System.out.println(``Hello World'');
+}
+\end{minted}
+\end{frame}
+
+\begin{frame}{Math}{in formulas}
+  \begin{math}
+    3+P(A_{x+i})=\sum_i^n \exp^{\alpha-\mu}
+  \end{math}
+\end{frame}
+
+\end{document}
